@@ -4,7 +4,7 @@ description: |
   A personal blog on R, urban and migration studies, veganism,
   and movies
 theme: theme.css
-base_url: 
+base_url: https://muratkaya.netlify.app
 collections:
   posts:
     categories: true
