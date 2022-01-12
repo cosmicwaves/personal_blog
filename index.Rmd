@@ -1,0 +1,13 @@
+---
+title: "Murat Kaya' Blog"
+site: distill::distill_website
+listing: posts
+categories:
+  - R
+  - Urban
+  - Vegan
+  - Map
+  - Migration
+  - Music
+  - Movie
+---

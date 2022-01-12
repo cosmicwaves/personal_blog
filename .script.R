@@ -1,0 +1,7 @@
+library(distill)
+create_post("Artistic Maps with R")
+rename_post_dir("_posts/2022-01-12-artistic-maps-with-r")
+create_post("example", collection = "Publications")
+create_theme(name = "theme")
+library(rmarkdown)
+render_site()

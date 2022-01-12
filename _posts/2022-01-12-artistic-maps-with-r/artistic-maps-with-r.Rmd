@@ -1,0 +1,23 @@
+---
+title: "Artistic Maps with R"
+description: |
+  A post on how to make beautiful maps with R
+preview: images/gzt_map.png
+author:
+  - name: Murat Kaya
+    url: 
+date: 2022-01-12
+output:html
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r, layout = "l-body-outset", preview = TRUE}
+library(ggplot2)
+ggplot(diamonds, aes(carat,price))+ geom_smooth()+
+  face_grid(~ cut)
+```
+
+
+
