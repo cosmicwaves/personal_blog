@@ -1,5 +1,5 @@
 ---
-title: "Murat Kaya' Blog"
+title: "Wave Blog"
 site: distill::distill_website
 listing: posts
 categories:
