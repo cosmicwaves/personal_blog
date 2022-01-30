@@ -24,18 +24,18 @@ navbar:
     image:
     href:
   search: true
-  source_url:
+  source_url: https://github.com/cosmicwaves/personal_blog
   right:
     - text: "Home"
       href: index.html
     - text: "Who am I?"
       href: about.html
-    - text: "Resume"
+    - text: "CV"
       href: resume.html
     - icon: fa fa-rss
       href: index.xml
     - icon: fa fa-github
       url:  https://github.com/cosmicwaves
     - icon: fa fa-email
-      url: mailto:
+      url: mailto:muratkaya@kirkayak.org
 output: distill::distill_article
