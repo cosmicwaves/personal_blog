@@ -87,29 +87,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Murat Kaya' Blog: About this blog</title>
+  <title>Murat Kaya: About</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the blog"/>
+  <meta property="description" itemprop="description" content=""/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Murat Kaya&#39; Blog: About this blog"/>
+  <meta property="og:title" content="Murat Kaya: About"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the blog"/>
+  <meta property="og:description" content=""/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Murat Kaya&#39; Blog"/>
+  <meta property="og:site_name" content="Murat Kaya"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Murat Kaya&#39; Blog: About this blog"/>
-  <meta property="twitter:description" content="Some additional details about the blog"/>
+  <meta property="twitter:title" content="Murat Kaya: About"/>
+  <meta property="twitter:description" content=""/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Some additional details about the blog"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About"]},{"type":"character","attributes":{},"value":[""]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2367,7 +2367,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","description":"Some additional details about the blog","authors":[]}
+{"title":"About","description":"","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2378,7 +2378,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a class="logo">
 <img alt="Logo"/>
 </a>
-<a href="index.html" class="title">Murat Kaya' Blog</a>
+<a href="index.html" class="title">Murat Kaya</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
@@ -2392,7 +2392,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
 <a>
-<i class="fa fa-email" aria-hidden="true"></i>
+<i class="fa fa-envelope" aria-hidden="true"></i>
 </a>
 <a href="https://github.com/cosmicwaves/personal_blog" aria-label="Link to source">
 <i class="fab fa-github" aria-hidden="true"></i>
@@ -2406,14 +2406,95 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this blog</h1>
+<h1>About</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the blog</p></p>
+
 </div>
 
 
 <div class="d-article">
+<style>
+d-title {
+ display:none;
+}
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: var(--body-font), var(--body-default);
+}
+
+@page{
+  size: letter portrait;
+  margin: 1in 0.5in 1in 0.25in;
+}
+
+a {
+  color: #FFB6C1;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --page-width: 8.5in;
+}
+
+
+#canvas {
+    max-width: var(--page-width);
+    margin: auto;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(0, 0, 0, 1);
+  --text-size:        15px;
+  --hover-color:      black;
+  --bkgd-color:       white;
+}
+
+.profile-photo {
+  vertical-align: middle;
+  text-align: center;
+  padding: 1.5rem!important;
+  box-sizing: border-box;
+}
+
+.profile-photo img {
+  // border: 1px solid black;
+  border-radius: 50%!important;
+  width: 12rem!important;
+}
+
+.navbar {
+  display: none; 
+}
+#navigation .navbar {
+ display: block;
+}
+
+d-article li {
+  margin-bottom: 0;
+}
+.highlight-color{
+ color: #AD0059;
+}
+</style>
+<div id="canvas">
+<div class="profile-photo">
+<p><img  src="images/avatar.jpeg" alt="Profile photo"></p>
+</div>
+<p>I’m a research assistant at <a href="http://goc.gantep.edu.tr">Institute for Migration, Gaziantep University, Gaziantep, Turkey</a>. My <strong>research interests</strong> are:</p>
+<ul>
+<li><span class="highlight-color">City and urbanization</span></li>
+<li><span class="highlight-color">Mobiltiy and housing</span></li>
+<li><span class="highlight-color">R and QGIS applications</span></li>
+<li><span class="highlight-color">Forced migration</span> and <span class="highlight-color">Urban refugees</span></li>
+</ul>
+<p>I speak <strong>Turkish</strong> (native), <strong>English</strong> (fluenty) and <strong>R</strong> (still too much to learn). I’ve lived in Antalya, Turkey until I was 18 and left for university. My first major was Molecular Biology and Genetics at Boğaziçi University, dropped it out for studying Early Childhood Education at the same university. I worked as early childhood teacher in Gaziantep for 5 years after my graduation. Then, I started to work as a research assistant at Gaziantep University Institute for Migration and obtained M.A. degree from Urban Studies at Gaziantep University in 2021. I wrote a thesis on [Residential Mobility of Syrians Living in Gaziantep] using a dataset which was created by me and my colleagues / professors. I used <strong>R</strong> and <strong>QGIS</strong> for analysis. I play bass guitar (at home alone most of the time), I’m learning <strong>statistics</strong>, <strong>R language</strong>, and <strong>map-making</strong>.</p>
+<p>I live with my lovely wife and three cat friends in Gaziantep.</p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

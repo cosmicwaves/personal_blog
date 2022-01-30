@@ -1,5 +1,5 @@
 name: "personal_blog"
-title: "Murat Kaya' Blog"
+title: "Murat Kaya"
 description: |
   A personal blog on R, urban and migration studies, veganism,
   and movies
@@ -36,6 +36,6 @@ navbar:
       href: index.xml
     - icon: fa fa-github
       url:  https://github.com/cosmicwaves
-    - icon: fa fa-email
+    - icon: fa fa-envelope
       url: mailto:muratkaya@kirkayak.org
 output: distill::distill_article

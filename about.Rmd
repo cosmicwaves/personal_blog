@@ -1,9 +1,97 @@
 ---
-title: "About this blog"
-description: |
-  Some additional details about the blog
+title: "About"
+description: ""
+#output:
+#  html_document:
+#    css: 
+#      - assets/about.css
+#    template: assets/cv/template.html 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+<style>
+d-title {
+ display:none;
+}
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: var(--body-font), var(--body-default);
+}
+
+@page{
+  size: letter portrait;
+  margin: 1in 0.5in 1in 0.25in;
+}
+
+a {
+  color: #FFB6C1;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --page-width: 8.5in;
+}
+
+
+#canvas {
+    max-width: var(--page-width);
+    margin: auto;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(0, 0, 0, 1);
+  --text-size:        15px;
+  --hover-color:      black;
+  --bkgd-color:       white;
+}
+
+.profile-photo {
+  vertical-align: middle;
+  text-align: center;
+  padding: 1.5rem!important;
+  box-sizing: border-box;
+}
+
+.profile-photo img {
+  // border: 1px solid black;
+  border-radius: 50%!important;
+  width: 12rem!important;
+}
+
+.navbar {
+  display: none; 
+}
+#navigation .navbar {
+ display: block;
+}
+
+d-article li {
+  margin-bottom: 0;
+}
+.highlight-color{
+ color: #AD0059;
+}
+</style>
+
+<div id="canvas">
+
+<div class="profile-photo">
+<img  src="images/avatar.jpeg" alt="Profile photo">  
+</div>
+
+I'm a research assistant at [Institute for Migration, Gaziantep University, Gaziantep, Turkey](http://goc.gantep.edu.tr).
+My **research interests** are:
+
+* [City and urbanization]{.highlight-color}
+* [Mobiltiy and housing]{.highlight-color}
+* [R and QGIS applications]{.highlight-color}
+* [Forced migration]{.highlight-color} and [Urban refugees]{.highlight-color}
+
+I speak **Turkish** (native), **English** (fluenty) and **R** (still too much to learn). I've lived in Antalya, Turkey until I was 18 and left for university. My first major was Molecular Biology and Genetics at Boğaziçi University, dropped it out for studying Early Childhood Education at the same university. I worked as early childhood teacher in Gaziantep for 5 years after my graduation. Then, I started to work as a research assistant at Gaziantep University Institute for Migration and obtained M.A. degree from Urban Studies at Gaziantep University in 2021. I wrote a thesis on [Residential Mobility of Syrians Living in Gaziantep] using a dataset which was created by me and my colleagues / professors. I used **R** and **QGIS** for analysis. I play bass guitar (at home alone most of the time), I'm learning **statistics**, **R language**, and **map-making**. 
+
+I live with my lovely wife and three cat friends in Gaziantep.
+
+</div>
